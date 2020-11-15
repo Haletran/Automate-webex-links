@@ -23,9 +23,9 @@ url9 = "https://univ-poitiers.webex.com/univ-poitiers/j.php?MTID=m17b56450e30025
 url10 = "https://univ-poitiers.webex.com/meet/alix.tubman"
 drive = "https://drive.google.com/drive/folders/1Pw3IrUWfMep7SzaudP9mUhFDaL4ttfhf"
 
-#Change the print var
+#classes time and day launch
 
-if  day== 0 and  i == 10: 
+if day== 0 and  i == 10: 
   print("Russe : Grands reperes culturels")
   webbrowser.open(url1,new=0,autoraise=True)
   webbrowser.open(drive,new=0,autoraise=True)
