@@ -6,6 +6,7 @@ now = datetime.datetime.now()
 day = datetime.datetime.today().weekday()
 
 i = now.hour
+#Your webex link or bbcollabb
 url1 = "https://univ-poitiers.webex.com/meet/sanja.boskovic"
 url2 = "https://univ-poitiers.webex.com/meet/irina.bondareva"
 url3 = "https://univ-poitiers.webex.com/meet/olga.osinovskaya"
@@ -17,6 +18,7 @@ url8 = "https://univ-poitiers.webex.com/univ-poitiers/j.php?MTID=m5cc9bbc014e051
 url9 = "https://univ-poitiers.webex.com/univ-poitiers/j.php?MTID=m17b56450e300259c9f9b70d4d98d97dc"
 url10 = "https://univ-poitiers.webex.com/meet/alix.tubman"
 
+#Change the print var 
 
 if day== 0 and  i == 10: 
  print("Russe : Grands reperes culturels")
