@@ -18,7 +18,7 @@ url8 = "https://univ-poitiers.webex.com/univ-poitiers/j.php?MTID=m5cc9bbc014e051
 url9 = "https://univ-poitiers.webex.com/univ-poitiers/j.php?MTID=m17b56450e300259c9f9b70d4d98d97dc"
 url10 = "https://univ-poitiers.webex.com/meet/alix.tubman"
 
-#Change the print var 
+#Change the print var
 
 if day== 0 and  i == 10: 
  print("Russe : Grands reperes culturels")
