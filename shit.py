@@ -65,11 +65,11 @@ if day== 4 and  i == 8:
  print("Decouverte Entreprise")
  webbrowser.open(url8,new=0,autoraise=True)
  webbrowser.open(drive,new=0,autoraise=True)
-if day== 0 and  i == 9: 
+if day== 4 and  i == 9: 
  print("Institutions Francaises et europeenes")
  webbrowser.open(url7,new=0,autoraise=True)
  webbrowser.open(drive,new=0,autoraise=True)
-if day== 0 and  i == 10: 
+if day== 4 and  i == 10: 
  print("Francais")
  webbrowser.open(url10,new=0,autoraise=True)
  webbrowser.open(drive,new=0,autoraise=True)
