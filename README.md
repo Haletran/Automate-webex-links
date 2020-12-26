@@ -2,6 +2,10 @@
 
 Just a simple python project , to automate my webex experience .
 Everytime you have a course , the program launch the link of your teacher. 
-This uses the date and time variables to known which one to launch
+This uses the date and time variables to known which one to launch .
 
-If you want to use it , just replace all of the link by yours , and you can add links too . 
+You need to install python 3.9.1 in the python website. Choose the installer
+accordingly to your OS . And launch auto.py.
+
+
+
