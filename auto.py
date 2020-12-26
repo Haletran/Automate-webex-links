@@ -14,12 +14,12 @@ url2 = "YOUR WEBEX LINK ..."
 
 
 def rcr():
-    print("Starting Lecture " + rcr.__name__)
+    print("Starting Lecture of " + rcr.__name__)
     webbrowser.open(url1)
 
 
 def lrm():
-    print("Starting Lecture " + rcr.__name__)
+    print("Starting Lecture of " + rcr.__name__)
     webbrowser.open(url2)
 
 
