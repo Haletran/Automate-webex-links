@@ -65,8 +65,8 @@ Les instalations des uns ou des autres peuvent durer quelques minutes , cela dep
 
 ## AWA <a name = "tests"></a>
 
-Maintenant que l'environnement compatible est pret , vous devez télécharger les fichiers situés dans release (en haut à droite).
-Une fois les fichiers telecharges , lancez le programma AWA.py . Si vous avez tout fait correctement vous devriez voir la fenetre
+Maintenant que l'environnement compatible est pret , vous devez télécharger le fichier "Source code(zip)" situés dans release (en haut à droite).
+Une fois le fichier telecharge ,vous devez extraire et lancez le programma AWA.py . Si vous avez tout fait correctement vous devriez voir la fenetre
 du programme . Dans ce cas , vous pouvez vous applaudir !
 
 ### 🔧 Mise en place <a name = "config"></a>
