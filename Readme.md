@@ -38,7 +38,7 @@ Vous aurez besoin de quelques pre-requis pour faire marcher le programme , sans 
 
 ### Prerequis
 
-En premier lieu vous devez installer la language Python 3.9 .
+En premier lieu vous devez installer le language Python 3.9 .
 
 ```
 https://www.python.org/
