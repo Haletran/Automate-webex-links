@@ -108,10 +108,10 @@ schedule.every().tuesday.at("09:00").do(b)
 ### ⛏️ Emploi du temps <a name = "table"></a>
 
 Voici la derniere étape , mettre en place votre emploi du temps . Cette étape n'est pas obligatoire donc vous n'etes pas obligés
-de la faire (ou si vous faites parties des LTMI Anglais/Russe/Arabe). Elle permet d'afficher votre emploi du temps constitué du nom des cours , des heures de cours et des noms des professeurs . 
+de la faire .Elle permet d'afficher votre emploi du temps constitué du nom des cours , des heures de cours et des noms des professeurs . 
 
 Vous allez devoir ouvrir le fichier timetable.py , toujours avec le bloc-note ( ou IDE ).
-Vous allez voir différentes fonctions , mais il va falloir devoir modifier ceux appeles 'rows' .
+Vous allez voir différentes fonctions , mais il va falloir devoir modifier ceux appeles 'rows.append' .
 
 ```
  table.rows.append([])
