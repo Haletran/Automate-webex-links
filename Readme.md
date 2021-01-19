@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="Screenshot2021-01-19215617.png" alt="Project logo"></a>
+ <img width=200px height=200px src="https://www.deviantart.com/haletran/art/Screenshot-2021-01-19-215617-867635653" alt="Project logo"></a>
 </p>
 
 <h3 align="center">AWA</h3>
