@@ -41,7 +41,7 @@ Vous aurez besoin de quelques pre-requis pour faire marcher le programme , sans 
 En premier lieu vous devez installer la language Python 3.9 .
 
 ```
-Telecharger le via le site officiel : https://www.python.org/
+https://www.python.org/
 ```
 
 Et je vous conseille aussi d'installer l'interpreteur situé sur le Microsoft Store(WIN).
