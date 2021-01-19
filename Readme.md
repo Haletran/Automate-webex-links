@@ -48,7 +48,7 @@ En premier lieu vous devez installer la language Python 3.9 .
 Telecharger le via le site officiel : https://www.python.org/
 ```
 
-Et je vous conseille aussi d'installer l'interpreteur situe sur le Microsoft Store(WIN)
+Et je vous conseille aussi d'installer l'interpreteur situé sur le Microsoft Store(WIN).
 
 ### Installation
 
@@ -63,7 +63,6 @@ pip install pyautogui
 pip install pyttsx3
 pip install beautifultable
 pip install pyttsx3
-
 ```
 
 Les instalations des uns ou des autres peuvent durer quelques minutes , cela depend avant tout de votre connexion.
@@ -112,12 +111,11 @@ schedule.every().tuesday.at("09:00").do(b)
 
 ### ⛏️ Emploi du temps <a name = "table"></a>
 
-Voici la derniere étape , mettre en place votre emploi du temps . Cette etape n'est pas obligatoire donc vous n'etes pas obliges
-de la faire . Elle permet d'afficher votre emploi du temps constitue du nom des cours , des heures de cours et des noms des
-professeurs . (ou si vous faites parties des LTMI Anglais/Russe/Arabe)
+Voici la derniere étape , mettre en place votre emploi du temps . Cette étape n'est pas obligatoire donc vous n'etes pas obligés
+de la faire (ou si vous faites parties des LTMI Anglais/Russe/Arabe). Elle permet d'afficher votre emploi du temps constitué du nom des cours , des heures de cours et des noms des professeurs . 
 
 Vous allez devoir ouvrir le fichier timetable.py , toujours avec le bloc-note ( ou IDE ).
-Vous allez voir differentes fonctions , mais il va falloir devoir modifier ceux appeles rows .
+Vous allez voir différentes fonctions , mais il va falloir devoir modifier ceux appeles 'rows' .
 
 ```
  table.rows.append([])
