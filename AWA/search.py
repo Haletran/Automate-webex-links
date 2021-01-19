@@ -12,17 +12,17 @@ from beautifultable import BeautifulTable
 from subprocess import call
 
 """Add your webex link - You can add as many as you want"""
-url1 = "https://univ-poitiers.webex.com/meet/nada.kawach"
-url2 = "https://univ-poitiers.webex.com/meet/mohamed.mustapha.deabes"
-url3 = "https://univ-poitiers.webex.com/meet/olga.osinovskaya"
-url4 = "https://univ-poitiers.webex.com/meet/nicolas.cormeau"
-url5 = "https://univ-poitiers.webex.com/meet/jean.christophe.dourdet"
-url6 = "https://univ-poitiers.webex.com/meet/anita.jorge"
-url7 = "https://univ-poitiers.webex.com/meet/jessica.robert"
-url8 = "https://univ-poitiers.webex.com/meet/charlotte.krauss"
-url9 = "https://univ-poitiers.webex.com/meet/irina.bondareva"
-url10 = "https://univ-poitiers.webex.com/meet/ariane.le.moing"
-url11 = "https://univ-poitiers.webex.com/meet/isabelle.millon.zumstein"
+url1 = ""
+url2 = ""
+url3 = ""
+url4 = ""
+url5 = ""
+url6 = ""
+url7 = ""
+url8 = ""
+url9 = ""
+url10 = ""
+url11 = ""
 
 """Text-to-speech"""
 engine = pyttsx3.init()
@@ -31,7 +31,7 @@ engine.setProperty('rate', rate+10)
 
 """Quotes"""
 
-name = "Baptiste"
+name = ""
 QUOTES_CLASSES = [
     "Bonne Chance " + name,
     "Travaillez bien !",
@@ -42,6 +42,7 @@ QUOTES_CLASSES = [
 ]
 quote = QUOTES_CLASSES[random.randint(0, len(QUOTES_CLASSES)-1)]
 
+"""Fonctions do"""
 
 def a():
     webbrowser.open(url1)
@@ -51,9 +52,6 @@ def a():
     engine.say('Votre cours est prêt !')
     engine.say(quote)
     engine.runAndWait()
-
-
-"""Arabe"""
 
 
 def b():
@@ -66,8 +64,6 @@ def b():
     engine.runAndWait()
 
 
-"""Russe appliquee"""
-
 
 def c():
     webbrowser.open(url3)
@@ -78,8 +74,6 @@ def c():
     engine.say(quote)
     engine.runAndWait()
 
-
-"""Economie fr"""
 
 
 def d():
@@ -92,8 +86,6 @@ def d():
     engine.runAndWait()
 
 
-"""Russe langue ecrite"""
-
 
 def e():
     webbrowser.open(url3)
@@ -104,8 +96,6 @@ def e():
     engine.say(quote)
     engine.runAndWait()
 
-
-"""Simple, la phrase"""
 
 
 def f():
@@ -118,8 +108,6 @@ def f():
     engine.runAndWait()
 
 
-"""Anglais langue ecrite"""
-
 
 def g():
     webbrowser.open(url7)
@@ -130,8 +118,6 @@ def g():
     engine.say(quote)
     engine.runAndWait()
 
-
-"""Russe histoire"""
 
 
 def h():
@@ -144,8 +130,6 @@ def h():
     engine.runAndWait()
 
 
-"""Economie anglosaxone"""
-
 
 def i():
     webbrowser.open(url6)
@@ -155,9 +139,6 @@ def i():
     engine.say('Votre cours est prêt !')
     engine.say(quote)
     engine.runAndWait()
-
-
-"""Russe COM/EXP orale"""
 
 
 def j():
@@ -170,9 +151,6 @@ def j():
     engine.runAndWait()
 
 
-"""Anglais diversite culturelle CM"""
-
-
 def k():
     webbrowser.open(url10)
     time.sleep(8)
@@ -181,9 +159,6 @@ def k():
     engine.say('Votre cours est prêt !')
     engine.say(quote)
     engine.runAndWait()
-
-
-"""Anglais diversite culturelle TD"""
 
 
 def l():
@@ -196,27 +171,21 @@ def l():
     engine.runAndWait()
 
 
-"""debug schedule"""
 
 
-def debug():
-    print("Bonjour")
-    time.sleep(2)
-
-
-schedule.every().monday.at("14:00").do(a)
-schedule.every().monday.at("15:30").do(b)
-schedule.every().tuesday.at("09:00").do(c)
-schedule.every().tuesday.at("11:00").do(d)
-schedule.every().tuesday.at("14:00").do(e)
-schedule.every().wednesday.at("08:00").do(f)
+schedule.every().monday.at("10:00").do(a)
+schedule.every().monday.at("10:00").do(b)
+schedule.every().tuesday.at("10:00").do(c)
+schedule.every().tuesday.at("10:00").do(d)
+schedule.every().tuesday.at("10:00").do(e)
+schedule.every().wednesday.at("10:00").do(f)
 schedule.every().wednesday.at("10:00").do(b)
-schedule.every().wednesday.at("13:30").do(g)
-schedule.every().wednesday.at("15:30").do(h)
-schedule.every().thursday.at("08:00").do(i)
+schedule.every().wednesday.at("10:00").do(g)
+schedule.every().wednesday.at("10:00").do(h)
+schedule.every().thursday.at("10:00").do(i)
 schedule.every().thursday.at("10:00").do(j)
-schedule.every().thursday.at("11:00").do(k)
-schedule.every().friday.at("15:00").do(l)
+schedule.every().thursday.at("10:00").do(k)
+schedule.every().friday.at("10:00").do(l)
 
 
 while True:
