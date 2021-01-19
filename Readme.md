@@ -131,6 +131,6 @@ table.rows.append(["Anglais-Comp/exp orales", "14:00-15:00", "Kawach Nada"])
 
 ## ✍️ Auteurs <a name = "authors"></a>
 
-- [@Haletran](https://github.com/Haletran) - Idee et creation
+- [@Haletran](https://github.com/Haletran) - Ideé et création
 
-La liste [contributeurs](https://github.com/Haletran/Automate-webex-links/graphs/contributors) qui ont participés au projet.
+La liste des [contributeurs](https://github.com/Haletran/Automate-webex-links/graphs/contributors) qui ont participés au projet.
