@@ -44,8 +44,6 @@ En premier lieu vous devez installer le language Python 3.9 .
 https://www.python.org/
 ```
 
-Et je vous conseille aussi d'installer l'interpréteur situé sur le [Microsoft Store](https://www.microsoft.com/fr-fr/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab).
-
 ### Installation
 
 Apres avoir installé Python , vous allez devoir télécharger les modules qui vont avec .
