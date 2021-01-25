@@ -12,7 +12,7 @@
 
 ---
 
-<p align="center"> A simple python program to launch your webex classes automatically
+<p align="center"> A simple python program to attend your webex classes
     <br> 
 </p>
 
