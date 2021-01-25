@@ -1,4 +1,4 @@
-- [] Add Selenium support 
-- [] Add database to simplify the user experience
-- [] Add a GUI with Tkinter 
-- [] .exe file
+- [ ] Add Selenium support 
+- [ ] Add database to simplify the user experience
+- [ ] Add a GUI with Tkinter 
+- [ ] .exe file
