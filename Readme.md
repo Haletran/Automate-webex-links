@@ -1,8 +1,6 @@
 
 <h1 align="center">AWA</h3>
 
----
-
 <p align="center"> A simple python program to attend your webex classes
     <br> 
 </p>
